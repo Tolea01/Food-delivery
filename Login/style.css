@@ -38,8 +38,18 @@ p.subtitle {
     margin-top: 16px;
 }
 
-.form-label {
+.form-label, .signUp {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+}
+
+form button {
+    width: 100%;
+}
+
+.form-link {
+    text-decoration: none;
+    margin-top: 28px;
+    font-weight: 700;
 }
