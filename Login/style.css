@@ -4,6 +4,10 @@ body {
     height: 100vh;
 }
 
+.contentPage {
+    height: 100vh;
+}
+
 .title {
     font-weight: 800;
     font-size: 27px;
@@ -23,6 +27,7 @@ body {
 }
 
 .form {
+    width: 80%;
     margin-top: 22%;
     color: #2B2B43;
 }
@@ -53,3 +58,7 @@ form button {
     margin-top: 28px;
     font-weight: 700;
 }
+
+/* .blue {
+    background-color: #697BFF;
+} */
