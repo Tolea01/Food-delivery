@@ -1,0 +1,45 @@
+body {
+    font-family: Nunito;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.color-blue {
+    color: #4E60FF;
+}
+
+.mt {
+    margin-top: -12px;
+}
+
+.login-text {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.form {
+    margin-top: 22%;
+    color: #2B2B43;
+}
+
+p.subtitle {
+    width: 350px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #545563;
+    margin-top: 16px;
+}
+
+.form-label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
