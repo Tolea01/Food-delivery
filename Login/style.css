@@ -87,8 +87,12 @@ form button {
     background-color: #697BFF;
 }
 
-/* .reviews {
+.card-reviews {
     width: 415px;
+    transform: translate(40px, 50px);
+    background: #FFFFFF;
+    border: 0.894286px solid #EDEEF2;
+    border-radius: 14.3086px;
 }
 
 h4.color-blue {
@@ -103,13 +107,10 @@ h6.color-gray {
     font-size: 12px;
 }
 
-.card-button {
-    transform: translate(80px, -15px);
-}
-
-.card-reviews {
-    width: 800px;
+.card-reviews_button button {
+    width: 150px;
+    height: 39px;
     background: #FFFFFF;
-    border: 0.894286px solid #EDEEF2;
-    border-radius: 14.3086px;
-} */
+    border: 1px solid #4E60FF;
+    border-radius: 8px;
+}
