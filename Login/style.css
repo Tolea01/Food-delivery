@@ -17,6 +17,10 @@ body {
     color: #4E60FF;
 }
 
+.color-gray {
+    color: #C7C8D2;
+}
+
 .mt {
     margin-top: -12px;
 }
@@ -27,7 +31,7 @@ body {
 }
 
 .form {
-    width: 80%;
+    width: 85%;
     margin-top: 22%;
     color: #2B2B43;
 }
@@ -37,13 +41,15 @@ p.subtitle {
     height: 40px;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: calc(12.5px + 1.5 * (100vw / 2300));
     letter-spacing: 0.1px;
     color: #545563;
     margin-top: 16px;
 }
 
-.form-label, .signUp {
+.form-label,
+.signUp {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -60,6 +66,7 @@ p.subtitle {
     bottom: 0;
     right: 15px;
     margin: auto 0;
+    cursor: pointer;
 }
 
 form button {
@@ -72,6 +79,37 @@ form button {
     font-weight: 700;
 }
 
-/* .blue {
+.login {
+    transform: translateX(5%);
+}
+
+.cards {
     background-color: #697BFF;
+}
+
+/* .reviews {
+    width: 415px;
+}
+
+h4.color-blue {
+    margin-right: 10px;
+}
+
+h6.color-gray {
+    font-size: 12px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.card-button {
+    transform: translate(80px, -15px);
+}
+
+.card-reviews {
+    width: 800px;
+    background: #FFFFFF;
+    border: 0.894286px solid #EDEEF2;
+    border-radius: 14.3086px;
 } */
