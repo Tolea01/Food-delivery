@@ -2,6 +2,7 @@ body {
     font-family: Nunito;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 .contentPage {
@@ -143,3 +144,26 @@ h6.color-gray {
     margin: auto 0;
     cursor: pointer;
 }
+
+.user-name span {
+    font-size: 10px;
+    color: #83859C;
+}
+
+.like, .dislike {
+    font-size: 15px;
+}
+
+.like span {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+/* .roll-set_card {
+    width: 45%;
+    transform: translate(450px, -420px);
+}
+
+.roll-set_card img {
+    border-radius: 30px;
+} */
