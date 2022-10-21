@@ -129,7 +129,8 @@ h6.color-gray {
 }
 
 .select span {
-    color: #83859C;;
+    color: #83859C;
+    ;
 }
 
 .select::after {
@@ -150,7 +151,8 @@ h6.color-gray {
     color: #83859C;
 }
 
-.like, .dislike {
+.like,
+.dislike {
     font-size: 15px;
 }
 
@@ -159,11 +161,28 @@ h6.color-gray {
     margin-right: 20px;
 }
 
-/* .roll-set_card {
-    width: 45%;
+.roll-set_card {
+    width: 35%;
     transform: translate(450px, -420px);
 }
 
 .roll-set_card img {
     border-radius: 30px;
-} */
+}
+
+.card-body span i {
+    right: 25px;
+    bottom: 20px;
+    background: #F3F4FF;
+    border-radius: 10.08px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.card-body span i:hover {
+    color: white;
+    background-color: #4E60FF;
+}
