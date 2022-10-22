@@ -2,7 +2,7 @@ body {
     font-family: Nunito;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .contentPage {
@@ -88,7 +88,7 @@ form button {
 }
 
 .card-reviews {
-    transform: translateX(10px);
+    transform: translateX(35px);
     background: #FFFFFF;
     border: 0.894286px solid #EDEEF2;
     border-radius: 14.3086px;
@@ -106,7 +106,7 @@ h6.color-gray {
     font-size: 12px;
 }
 
-.raiting h6{
+.raiting h6 {
     width: 45px;
 }
 
@@ -130,7 +130,8 @@ h6.color-gray {
 }
 
 .select span {
-    color: #83859C;;
+    color: #83859C;
+    ;
 }
 
 .select::after {
@@ -151,18 +152,25 @@ h6.color-gray {
     color: #83859C;
 }
 
-.like, .dislike {
+.like,
+.dislike {
     font-size: 15px;
 }
 
 .like span {
     font-size: 12px;
     margin-right: 20px;
-}   
+}
 
 .roll-set_card img {
     border-radius: 30px;
 }
+
+.roll-set_card {
+    transform: translateX(26px);
+    border-radius: 13.5452px;
+}
+
 
 .plus-button {
     height: 40%;
@@ -172,4 +180,45 @@ h6.color-gray {
 
 .plus-button i:hover {
     color: white;
+}
+
+.nigiri-set_card {
+    border-radius: 13.5452px;
+    margin-top: -40px;
+}
+
+.nigiri-set_card img {
+    border-radius: 30px;
+}
+
+.plus-buttons {
+    margin-top: 50px;
+}
+
+.add-button {
+    position: absolute;
+    margin-top: 25px;
+    margin-right: 12px;
+    font-size: calc(12.5px + 1.5 * (100vw / 2300));
+    background: #F3F4FF;
+    border-radius: 6.7726px;
+}
+
+.add-button:hover {
+    color: white;
+    background-color: #4E60FF;
+}
+
+.count-button {
+    background: #EDEEF2;
+    border-radius: 6.7726px;
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+    cursor: pointer
+}
+
+.count-button:hover {
+    color: white;
+    background-color: #4E60FF;
 }
