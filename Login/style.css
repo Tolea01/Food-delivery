@@ -88,7 +88,7 @@ form button {
 }
 
 .card-reviews {
-    transform: translateX(35px);
+    transform: translateX(30px);
     background: #FFFFFF;
     border: 0.894286px solid #EDEEF2;
     border-radius: 14.3086px;
@@ -107,7 +107,7 @@ h6.color-gray {
 }
 
 .raiting h6 {
-    width: 45px;
+    min-width: 45px;
 }
 
 .card-reviews_button button {
@@ -169,6 +169,9 @@ h6.color-gray {
 .roll-set_card {
     transform: translateX(26px);
     border-radius: 13.5452px;
+    -webkit-box-shadow: -49px 4px 35px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -49px 4px 35px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: -49px 4px 35px 1px rgba(34, 60, 80, 0.2);
 }
 
 
@@ -185,6 +188,10 @@ h6.color-gray {
 .nigiri-set_card {
     border-radius: 13.5452px;
     margin-top: -40px;
+    transform: translateX(-25px);
+    -webkit-box-shadow: -23px -12px 56px -20px rgba(34, 60, 80, 0.36);
+    -moz-box-shadow: -23px -12px 56px -20px rgba(34, 60, 80, 0.36);
+    box-shadow: -23px -12px 56px -20px rgba(34, 60, 80, 0.36);
 }
 
 .nigiri-set_card img {
@@ -205,7 +212,6 @@ h6.color-gray {
     font-size: calc(12.5px + 1.5 * (100vw / 2300));
     background: #F3F4FF;
     border-radius: 6.7726px;
-    min-width: 108px;
 }
 
 .add-button:hover {
@@ -213,7 +219,8 @@ h6.color-gray {
     background-color: #4E60FF;
 }
 
-i.disabled, i.active {
+i.disabled,
+i.active {
     background: #EDEEF2;
     border-radius: 6.7726px;
     width: 20px;
@@ -222,11 +229,39 @@ i.disabled, i.active {
     cursor: pointer
 }
 
- i.disabled {
+i.disabled {
     color: #C7C8D2;
 }
 
 i.active:hover {
     color: white;
     background-color: #4E60FF;
+}
+
+.content-scale {
+    transform: scale(.9);
+}
+
+.carousel {
+    margin-top: 50px;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+}
+
+i.fa-circle {
+    visibility: visible;
+    transform: translate(990px, 30px);
+    font-size: 10px;
+}
+
+p.carousel-text {
+    max-width: 520px;
+}
+
+@media(max-width: 768px) {
+    .cards {
+        display: none;
+    }
 }
