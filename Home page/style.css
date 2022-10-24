@@ -1,7 +1,5 @@
 body {
     font-family: Nunito;
-    width: 100vw;
-    height: 100vh;
 }
 
 .color-blue {
@@ -32,14 +30,14 @@ body {
 }
 
 .navbar li {
-    margin-right: 20px;
+    margin-right: 17px;
 }
 
 .vertical-line {
     width: 0px;
     height: 32px;
     /* background-color: #EDEEF2; */
-    margin-right: 20px;
+    margin-right: 17px;
     border: 1px solid #EDEEF2;
 }
 
@@ -58,4 +56,12 @@ body {
     border-radius: 20px;
     margin-left: 20px;
     cursor: pointer;
+}
+
+.line {
+    transform: translateY(-16px);
+}
+
+.search {
+    left: 18%;
 }
