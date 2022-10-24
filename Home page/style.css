@@ -59,7 +59,6 @@ button.store-button {
 
 .search {
     transform: translateX(150px);
-
 }
 
 i.fa-magnifying-glass {
@@ -79,7 +78,6 @@ input[type="search"] {
     border-radius: 16px;
     background: #EDEEF2;
     border-radius: 16px;
-    /* margin-left: 20px; */
 }
 
 i.fa-bars {
