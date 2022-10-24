@@ -19,9 +19,6 @@ body {
     margin-top: -12px;
 }
 
-.search {
-    max-width: 325px;
-}
 
 .navbar {
     list-style: none;
@@ -32,26 +29,27 @@ body {
 }
 
 .vertical-line {
-    width: 0px;
+    width: 1.5px;
     height: 32px;
     margin-right: 17px;
-    border: 1px solid #EDEEF2;
+    background-color: #EDEEF2;
 }
 
-.navbar button {
-    background: #F3F4FF;
-    border-radius: 15px;
-    min-height: 54px;
+.vertical-line-sm {
+    margin-left: 15px;
 }
 
-.navbar button:hover {
-    background: #F3F4FF;
+button.store-button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #4E60FF;
+    border-radius: 16px;
 }
+
 
 .navbar img {
     border: 3px solid #EDEEF2;
     border-radius: 20px;
-    margin-left: 20px;
     cursor: pointer;
 }
 
@@ -60,7 +58,8 @@ body {
 }
 
 .search {
-    left: 19%;
+    transform: translateX(150px);
+
 }
 
 i.fa-magnifying-glass {
@@ -72,4 +71,17 @@ i.fa-magnifying-glass {
 input[type="search"] {
     border-radius: 12px;
     background-color: #EDEEF2;
+}
+
+.menu-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background: #EDEEF2;
+    border-radius: 16px;
+    /* margin-left: 20px; */
+}
+
+i.fa-bars {
+    color: #83859C;
 }

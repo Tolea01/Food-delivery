@@ -15,7 +15,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-md navbar-menu">
         <div class="row d-flex align-items-center mt-2 position-relative">
             <div class="col-2">
                 <div class="title">
@@ -23,7 +23,7 @@
                     <div class="color-blue mt">delivery</div>
                 </div>
             </div>
-            <div class="col-3 search d-flex align-items-center position-fixed">
+            <div class="col-md-2 col-lg-3 search d-none d-md-flex align-items-center position-fixed">
                 <form class="d-flex position-relative" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <i class="fa-solid fa-magnifying-glass position-absolute color-gray"></i>
@@ -31,23 +31,27 @@
             </div>
             <div class="col d-flex justify-content-end">
                 <ul class="navbar d-flex">
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-md-flex">
                         <a class="nav-link fw-bold" href="#">Restaurants</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-none d-md-flex">
                         <a class="nav-link fw-bold" href="#">Deals</a>
                     </li>
-                    <div class="vertical-line"></div>
-                    <li class="nav-item">
+                    <div class="vertical-line d-none d-md-flex"></div>
+                    <li class="nav-item d-none d-md-flex">
                         <a class="nav-link fw-bold" href="#">My order</a>
                     </li>
-                    <button type="button" class="btn btn-primary position-relative">
+                    <button type="button" class="btn btn-light store-button position-relative mx-2">
                         <i class="fa-solid fa-cart-shopping color-blue"></i>
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
                           4
                         </span>
                       </button>
-                      <img class="img-fluid" src="../Home page/img/img.png" alt="account-img">
+                      <img class="img-fluid mx-2" src="../Home page/img/img.png" alt="account-img">
+                      <div class="vertical-line vertical-line-sm d-sm-flex d-md-none mx-3"></div>
+                      <button type="button" class="btn btn-light menu-btn mx-2">
+                        <i class="fa-solid fa-bars text-center"></i>
+                      </button>
                 </ul>
             </div>
         </div>
