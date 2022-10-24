@@ -21,8 +21,6 @@ body {
 
 .search {
     max-width: 325px;
-    /* max-width: 30%; */
-    /* transform:translateX(-50px) */
 }
 
 .navbar {
@@ -36,7 +34,6 @@ body {
 .vertical-line {
     width: 0px;
     height: 32px;
-    /* background-color: #EDEEF2; */
     margin-right: 17px;
     border: 1px solid #EDEEF2;
 }
@@ -63,5 +60,16 @@ body {
 }
 
 .search {
-    left: 18%;
+    left: 19%;
+}
+
+i.fa-magnifying-glass {
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input[type="search"] {
+    border-radius: 12px;
+    background-color: #EDEEF2;
 }
