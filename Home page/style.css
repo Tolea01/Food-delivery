@@ -110,7 +110,21 @@ i.fa-bars {
     height: 80px;
 }
 
-.select-food button {
+button.food-columns-button {
+    background: #FFFFFF;
+    border: 1px solid #EDEEF2;
+    border-radius: 16px;
+}
+
+button.food-columns-button:hover {
+    border: 1px solid #697BFF;
+    background: #F8F9FF;
+}
+
+button.food-columns-active,
+button.food-columns-active:hover {
+    background: #F3F4FF;
+    border: 2px solid #4E60FF;
     border-radius: 16px;
 }
 
@@ -130,9 +144,9 @@ i.fa-bars {
         padding: 0 25px;
     }
 
-    /* .food-columns,
+    .food-columns,
     .select-food button {
         width: 100px;
         height: 80px;
-    } */
+    }
 }
