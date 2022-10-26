@@ -88,19 +88,34 @@ i.fa-bars {
     color: #83859C;
 }
 
-.desert {
+.desert,
+.big-burger {
     width: 49%;
+    cursor: pointer;
+}
+
+.desert {
     background: #F3F4FF;
     border-radius: 16px;
 }
 
 .big-burger {
-    width: 49%;
     background: #FFF3ED;
     border-radius: 16px;
 }
 
+.food-columns,
+.select-food button {
+    width: 160px;
+    height: 80px;
+}
+
+.select-food button {
+    border-radius: 16px;
+}
+
 @media(max-width:765px) {
+
     .desert,
     .big-burger {
         width: 100%;
@@ -114,4 +129,10 @@ i.fa-bars {
     .food-cards {
         padding: 0 25px;
     }
+
+    /* .food-columns,
+    .select-food button {
+        width: 100px;
+        height: 80px;
+    } */
 }
