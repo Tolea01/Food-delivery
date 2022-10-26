@@ -104,9 +104,14 @@ i.fa-bars {
     .desert,
     .big-burger {
         width: 100%;
+        margin: 0;
     }
 
     .big-burger {
         margin-top: 30px;
+    }
+
+    .food-cards {
+        padding: 0 25px;
     }
 }
