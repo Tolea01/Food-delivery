@@ -1,0 +1,89 @@
+body {
+    font-family: Nunito;
+}
+
+.color-blue {
+    color: #4E60FF;
+}
+
+.color-gray {
+    color: #C7C8D2;
+}
+
+.color-orange {
+    color: #FD6D22;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.mt {
+    margin-top: -12px;
+}
+
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    margin-right: 17px;
+}
+
+.vertical-line {
+    width: 1.5px;
+    height: 32px;
+    margin-right: 17px;
+    background-color: #EDEEF2;
+}
+
+.vertical-line-sm {
+    margin-left: 15px;
+}
+
+button.store-button {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #4E60FF;
+    border-radius: 16px;
+}
+
+
+.navbar img {
+    border: 3px solid #EDEEF2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.line {
+    transform: translateY(-16px);
+}
+
+.search {
+    transform: translateX(150px);
+}
+
+i.fa-magnifying-glass {
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input[type="search"] {
+    border-radius: 12px;
+    background-color: #EDEEF2;
+}
+
+.menu-btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background: #EDEEF2;
+    border-radius: 16px;
+}
+
+i.fa-bars {
+    color: #83859C;
+}
