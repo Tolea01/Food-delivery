@@ -116,13 +116,68 @@ i.fa-bars {
     margin-right: 10px;
 }
 
-/* i.fa-user {
-    color: white;
-} */
+.account-row {
+    border: 1px solid #EDEEF2;
+    border-radius: 16px;
+}
+
+.user-background img {
+    width: 88px;
+    height: 88px;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+
+.user-background button {
+    width: 83px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border: 1px solid #4E60FF;
+    border-radius: 8px;
+}
+
+.user-background small {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.line {
+    border: 1px solid #EDEEF2;
+}
+
+button.log-out,
+button.discard-changes {
+    background-color: #FFFFFF;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
+button.log-out {
+    color: #FF5C60;
+    border: 1px solid #FF5C60;
+}
+
+button.discard-changes {
+    border: 1px solid #83859C;
+    color: #83859C;
+}
+
+button.save-changes {
+    padding: 12px 16px;
+    border-radius: 8px;
+}
 
 @media(max-width:576px) {
 
     .main-content {
         padding: 0px 25px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .account-text {
+        margin-top: 50px;
+        margin-bottom: 16px;
     }
 }
