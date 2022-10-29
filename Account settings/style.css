@@ -87,3 +87,42 @@ input[type="search"] {
 i.fa-bars {
     color: #83859C;
 }
+
+.settings-row,
+.settings-row-active {
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.settings-row {
+    background: #FFFFFF;
+    border: 1px solid #EDEEF2;
+}
+
+.settings-row-active {
+    background: #F3F4FF;
+    border: 2px solid #4E60FF;
+}
+
+.settings-column-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+}
+
+.settings-column {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* i.fa-user {
+    color: white;
+} */
+
+@media(max-width:576px) {
+
+    .main-content {
+        padding: 0px 25px;
+    }
+}
