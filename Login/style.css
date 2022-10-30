@@ -242,22 +242,31 @@ i.active:hover {
     transform: scale(.9);
 }
 
-.carousel {
-    margin-top: 50px;
-}
-
-.carousel-indicators {
-    visibility: hidden;
-}
-
 i.fa-circle {
     visibility: visible;
     transform: translate(990px, 30px);
     font-size: 10px;
 }
 
-p.carousel-text {
-    max-width: 520px;
+.slider p {
+    max-width: 600px;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.circle-disabled {
+    background: #FFFFFF;
+    opacity: 0.3;
+}
+
+.circle-active {
+    background: #FFFFFF;
 }
 
 @media(max-width: 768px) {
