@@ -111,7 +111,10 @@ h6.color-gray {
 }
 
 .card-reviews_button button {
-    margin-left: 18%;
+    right: 10px;
+    width: 110px;
+    height: 39.46px;
+    font-size: 14px;
     background: #FFFFFF;
     border: 1px solid #4E60FF;
     border-radius: 8px;
@@ -206,9 +209,10 @@ h6.color-gray {
 }
 
 .add-button {
-    position: absolute;
-    margin-top: 25px;
-    margin-right: 12px;
+    width: 112.41px;
+    height: 37.32px;
+    right: 5px;
+    top: 25px;
     font-size: calc(12.5px + 1.5 * (100vw / 2300));
     background: #F3F4FF;
     border-radius: 6.7726px;
@@ -273,4 +277,5 @@ i.fa-circle {
     .cards {
         display: none;
     }
+ 
 }
